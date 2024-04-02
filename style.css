@@ -1,0 +1,50 @@
+  .heading {
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .headingDiv {
+    background-color: aliceblue;
+    border-radius: 20px;
+    color: black; 
+    box-shadow: 5px 5px 5px grey;
+    float: none;
+    
+  }
+
+  .headingDiv2 {
+    font-size: 18px;
+  }
+
+  .result_para_tag {
+    box-shadow: 5px 5px 5px grey;
+    font-size: 20px;
+    border-radius: 49px;
+  }
+
+  .copyRightFooter {
+    position:fixed;
+    color: aliceblue;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(202, 156, 233);
+    text-align: center;
+    line-height: 3;
+  }
+
+  canvas{
+    border: 5px solid red;
+    margin-top: 85px;
+    animation-name: exemplo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes exemplo{
+    from{
+      box-shadow: 5px 5px 38px rgb(58, 58, 255);
+    }
+    to{
+      box-shadow: 5px 5px 38px rgb(179, 99, 179);
+    }
+  }
